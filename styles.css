@@ -14,7 +14,7 @@ body{
     
      min-height:900px;
     font-family: 'Poppins', sans-serif;
-    background-image: url(/img/lofi.jpg);
+    background-image: url(img/lofi.jpg);
 }
 
 
@@ -179,20 +179,20 @@ nav ul li a:hover{
 
 section:nth-child(2){
     
-    background-image: url(/img/maxresdefault\ \(6\).jpg);
+    background-image: url(img/maxresdefault\ \(6\).jpg);
 
 }
 section:nth-child(3){
-    background-image: url(/img/maxresdefault\ \(2\).jpg);
+    background-image: url(img/maxresdefault\ \(2\).jpg);
     
 }
 section:nth-child(5){
     
-    background-image: url(/img/dos.jpg)
+    background-image: url(img/dos.jpg)
     }
     section:nth-child(4){
    
-        background-image:url(/img/cuatro.jpg)
+        background-image:url(img/cuatro.jpg)
         }
         
     
