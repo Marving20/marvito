@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/fb128ff017.js"></script>
+    <link rel="stylesheet" href="/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvin - Portafolio</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+</head>
+<body>
+    <nav>
+        <div>
+            <img src="/img/1553077_blue_letter_m_alphabet_letters_icon.svg" class="img_m"/><h4 class="marg">Marvin</h4> 
+        <ul>
+            <li><a class="active" href="#sec1">Home</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Works</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact Me</a></li>
+        </ul>
+        <label id="icon">
+            <i class="fas fa-bars"></i>
+        </label>
+    </div>
+    <header>
+        <div class="contin">
+            <img src="/img/1826223_brand_github_logo_network_social_icon.svg" class="logo">
+            <img src="/img/lista-de-verificacion.png" class="logu">
+            
+        <div class="goku">
+            <button type="button" onclick="togglebtn()" id="btn"><span></span></button>
+        </div>
+            
+        </div>
+        <div class="container">
+            <div class="textos">
+                <h1>Marvin Galeano</h1>
+                
+                <h2>Fronted Developer | Student - Junior <br>
+                choose hope or despair <br> but see for yourself</h2>
+                <a href="#sec1">Click Me</a>
+        </div>
+        <div class="imgenes">
+            <img src="/img/lamp.png" class="lamp">
+            <img src="/img/light.png" class="light" id="light">
+        </div>
+        
+        
+        </div>
+        
+    </header>
+    <section id="sec1">
+        <div class="contenedor-texto">
+            <h2>Marvin Section</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br> Praesentium in reprehenderit, laudantium asperiores perspiciatis,<br> perferendis quaerat similique ipsa corporis harum laboriosam soluta? <br>
+                Accusantium porro aut explicabo sint repudiandae quam soluta?</p>
+                
+            <a href="#">Regresar</a>
+        </div>
+       <img src="/img/Headphones.png" class="th"> 
+    </section>
+    <section id="sec2">
+        <div class="contenedor-texto">
+            <h2>Marvin Section</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br> Praesentium in reprehenderit, laudantium asperiores perspiciatis,<br> perferendis quaerat similique ipsa corporis harum laboriosam soluta? <br>
+                Accusantium porro aut explicabo sint repudiandae quam soluta?</p>
+                
+            <a href="#">Regresar</a>
+        </div>
+       <img src="/img/MacBook.png" class="th"> 
+    </section>
+
+    <section id="sec3">
+        <div class="contenedor-texto">
+            <h2>Marvin Section</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br> Praesentium in reprehenderit, laudantium asperiores perspiciatis,<br> perferendis quaerat similique ipsa corporis harum laboriosam soluta? <br>
+                Accusantium porro aut explicabo sint repudiandae quam soluta?</p>
+                
+            <a href="#">Regresar</a>
+        </div>
+       <img src="/img/Folder.png" class="th"> 
+    </section>
+
+
+    <script>
+        var btn = document.getElementById("btn")
+        var light = document.getElementById("light")
+
+        function togglebtn(){
+            btn.classList.toggle("active");
+            light.classList.toggle("on");
+        }
+    </script>
+    <script src="/script.js"></script>
+</body>
+</html>
